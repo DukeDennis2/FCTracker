@@ -1,0 +1,111 @@
+*{
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    color: #ddd;
+    border-bottom: 2px solid #3c3c3c46;
+}
+.navbar .logo{
+    width: max(12vw, 120px);
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.navbar li{
+    cursor: pointer;
+}
+.navbar li {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar li::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 255, 255); /* Change color as needed */
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar li:hover::after {
+    width: 100%;
+  }
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: max(1vw, 12px);
+}
+.nav-right select{
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.608);
+    background: transparent;
+    color: white;
+    
+}
+.navbar option{
+    background-color: #09005c;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.nav-right button{
+    background: #5711c0a4;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+}
+.nav-right button .icon{
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #151417;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+.nav-right button:hover .icon  {
+    width: calc(100% - 0.6em);
+}
+.nav-right button .icon svg{
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #000000;
+}
+.nav-right button:hover .icon svg {
+        transform: translateX(0.1em);
+      }
+
+.nav-right button:active .icon{
+    transform: scale(0.95);
+
+}
