@@ -5,10 +5,11 @@ import arrow from '../../assets/arrow.png'
 
 const Navbar = () => {
   return (
+    /* this section is the nav bar */
     <div className='navbar'>
         <img src={logo} alt className="logo"/>
         <ul>
-            <li>Home</li>
+            <li>Home</li> 
             <li>features</li>
             <li>Prices</li>
             <li>Blog</li>
@@ -17,7 +18,7 @@ const Navbar = () => {
             <select>
                 <option value="usd">USD</option>
                 <option value="usd">GBP</option>
-                <option value="usd">EUR</option>
+                <option value="usd">EUR</option> 
 
             </select>
             <button>Get Started

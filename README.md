@@ -1,12 +1,31 @@
-# React + Vite
+# 🪙 FC Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FC Tracker is a modern, responsive web application that allows users to track real-time cryptocurrency prices, similar to CoinMarketCap. Built with React.js, the app fetches live data from a public crypto API and displays key metrics like price, volume, and market cap.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌐 Live cryptocurrency price tracking
+- 📈 Market cap, volume, and 24h change display
+- 🔍 Search functionality to find any coin instantly
+- 🌓 Light/Dark mode toggle (optional)
+- 📱 Responsive design for desktop and mobile
 
-## Expanding the ESLint configuration
+## 📸 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Include a screenshot or a link to a live demo here.
+
+![FC Tracker Screenshot](./screenshot.png)
+
+## 🛠️ Built With
+
+- [React.js](https://reactjs.org/)
+- [CoinGecko API](https://www.coingecko.com/en/api) or [CoinMarketCap API](https://coinmarketcap.com/api/)
+- HTML5 + CSS3
+- [Axios](https://axios-http.com/) for API requests
+
+## 📦 Installation
+
+Follow these steps to get a local copy up and running:
+
+```bash
+git clone https://github.com/DukeDennis2/FCTracker.git
